@@ -274,4 +274,17 @@ font-size:.9em;
   {
     font-size:0.9em;
   }
+  .intro p
+  {
+    font-size:1em;
+  }
+  .part4
+  {
+    font-size:0.8em;
+  }
+  .part4 #trophy
+  {
+    display:block;
+    margin:0 auto;
+  }
 }
