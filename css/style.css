@@ -1,290 +1,242 @@
-*
-{
-  box-sizing:border-box;
+* {
+  box-sizing: border-box;
 }
-.container
-{
-  position:relative;
-   background-color: #3c4884;
- 
-}
-.nav-list
-{
-  
-  
-/*max-width:100%;*/
-  position:relative;
 
-  text-align:center;
+.container {
+  position: relative;
+  background-color: #3c4884;
 }
-.nav-list>ul
-{
-  list-style-type:none;
-  display:inline-block;
-  padding:5px 0 0 0;
-  border-top:1px solid black;
-  color:grey;
+
+.nav-list {
   /*max-width:100%;*/
+  position: relative;
+  text-align: center;
+}
 
+.nav-list>ul {
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 0 0 0;
+  border-top: 1px solid black;
+  color: grey;
+  /*max-width:100%;*/
 }
-.top-row
-{
-  position:relative;
+
+.top-row {
+  position: relative;
 }
-.nav-collapsed
-{
-  width:50px;
-  height:50px;
-  background-color:black;
- 
-  position:absolute;
-  top:5%;
-  right:10%;
-  border-radius:30%;
+
+.nav-collapsed {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  border-radius: 30%;
   /*opacity:0.5;*/
 }
 
-.nav-collapsed hr
-{
-  width:80%;
-  vertical-align:middle;
+.nav-collapsed hr {
+  width: 80%;
+  vertical-align: middle;
 }
 
-
-.u-list li
-{
-  display:inline;
-  padding:8px;
-  
+.u-list li {
+  display: inline;
+  padding: 8px;
 }
 
-.u-list li>a
-{
+.u-list li>a {
   text-decoration: none;
   font-family: 'Francois One', sans-serif;
   font-size: 14px;
   color: #cccccc;
 }
 
-.logo-img
-{
-  display:inline-block;
-  width:10%;
-  padding:1% 0 0 1%;
+.logo-img {
+  display: inline-block;
+  width: 10%;
+  padding: 1% 0 0 1%;
   /*max-width:100%;*/
-  
-  
-}
-.logo-img>img
-{
-  max-width:100%;
-  height:auto;
 }
 
-.header-txt
-{
-  display:inline-block;
-  width:90%;
+.logo-img>img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-txt {
+  display: inline-block;
+  width: 90%;
   /*font-size:1.4em;*/
-  max-width:100%;
- 
+  max-width: 100%;
 }
 
-.header-txt p
-{
-  text-align:center;
+.header-txt p {
+  text-align: center;
   font-family: 'Abril Fatface', cursive;
   color: #cccccc;
-  margin:0 auto;
-  font-size:1.4em;
-}
-.menu
-{
-  position:relative;
-  
-  top:20px;
-  right:5%;
-  display: none;
-  border:1px solid grey;
-  background-color:red;
-  color:black;
-  z-index:1;
-}
-.menu p
-{
-  color:black;
-  font-size:14px;
+  margin: 0 auto;
+  font-size: 1.4em;
 }
 
-button
-{
-  position:absolute;
-  
-  right:0;
-  font-family: 'Francois One', sans-serif;
-  font-size:16px;
+.menu {
+  position: relative;
+  top: 20px;
+  right: 5%;
+  display: none;
+  border: 1px solid grey;
+  background-color: red;
+  color: black;
+  z-index: 1;
 }
-.container2
-{
+
+.menu p {
+  color: black;
+  font-size: 14px;
+}
+
+button {
+  position: absolute;
+  right: 0;
+  font-family: 'Francois One', sans-serif;
+  font-size: 16px;
+}
+
+.container2 {
   background-image: url('https://tedconfblog.files.wordpress.com/2014/08/madebymany-083.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #C9A798/*#96A8D9*/
   ;
-  height:500px;
+  height: 500px;
   background-blend-mode: screen;
 }
-.container2 .logo
-{
-  float:left;
-  width:100px;
-  height:100px;
-  border:1px solid black;
-  margin-top:7%;
+
+.container2 .logo {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin-top: 7%;
 }
 
-.intro p
-{
-  margin-left:10%;
+.intro p {
+  margin-left: 10%;
   font-family: 'Roboto Slab', serif;
   font-size: 22px;
   color: #4F2412/*#191970*/
   ;
- 
-  font-style:italic;
-}
-.intro p:first-child
-{
-  padding-top:7%;
-}
-.intro p:nth-child(2)
-{
-  font-style:normal;
-}
-.container3 
-{
-background-color: #e6a45a;
-   color: #3c4884;
-   font-size:1.2em;
-}
-.container3 .head
-{
-  text-align: center;
-  padding-top:5px;
+  font-style: italic;
 }
 
-.container3 #p2
-{
-  color:red;
+.intro p:first-child {
+  padding-top: 7%;
+}
+
+.intro p:nth-child(2) {
+  font-style: normal;
+}
+
+.container3 {
+  background-color: #e6a45a;
+  color: #3c4884;
+  font-size: 1.2em;
+}
+
+.container3 .head {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.container3 #p2 {
+  color: red;
   text-shadow: rgba(255, 255, 255, 0.701961) 0px 0px 6px;
-  font-size:1.4em;
+  font-size: 1.4em;
 }
 
-.container3 a
-{
-      color: #337ab7;
-    text-decoration: none;
+.container3 a {
+  color: #337ab7;
+  text-decoration: none;
 }
 
-
-
-.container3 img
-{
-  width:40px;
-  height:auto;
+.container3 img {
+  width: 40px;
+  height: auto;
 }
 
-.container3 .portal
-{
-  display:inline-block;
-  background-color:black;
-  color:white;
-  width:45%;
-  height:300px;
-  text-align: center;
-  vertical-align:bottom;
-  margin:1.5%;
-  max-width:100%;
-}
-
-.container3 .details
-{
+.container3 .portal {
   display: inline-block;
-  width:45%;
-    vertical-align:bottom;
-    margin:1.5%;
-    max-width:100%;
-}
-.part4 img
-{
-  vertical-align:middle;
-}
-
-.part4 .details .bullets
-{
-font-size:.9em;
+  background-color: black;
+  color: white;
+  width: 45%;
+  height: 300px;
+  text-align: center;
+  vertical-align: bottom;
+  margin: 1.5%;
+  max-width: 100%;
 }
 
-.container3 #trophy
-{
-  width:80px;
-  height:auto;
+.container3 .details {
+  display: inline-block;
+  width: 45%;
+  vertical-align: bottom;
+  margin: 1.5%;
+  max-width: 100%;
 }
 
-@media(min-width:769px)
-{
-  .nav-collapsed
-  {
-    display:none;
+.part4 img {
+  vertical-align: middle;
+}
+
+.part4 .details .bullets {
+  font-size: .9em;
+}
+
+.container3 #trophy {
+  width: 80px;
+  height: auto;
+}
+
+@media(min-width:769px) {
+  .nav-collapsed {
+    display: none;
   }
-  button
-  {
-    bottom:-35%;
+  button {
+    bottom: -35%;
   }
 }
-@media(max-width:768px)
-{
-  .nav-list>ul
-  {
-    display:none;
-  }
-  .header-txt>.top-row p
-  {
-    text-align:left;
-    padding:5px;
-  }
 
-  button
-  {
-    top:10%;
-    left:0;
+@media(max-width:768px) {
+  .nav-list>ul {
+    display: none;
   }
-  .nav-collapsed:hover .menu
-  {
+  .header-txt>.top-row p {
+    text-align: left;
+    padding: 5px;
+  }
+  button {
+    top: 10%;
+    left: 0;
+  }
+  .nav-collapsed:hover .menu {
     display: inline-block;
   }
-
- 
- 
 }
 
-@media(max-width:468px)
-{
-  .header-txt p
-  {
-    font-size:0.9em;
+@media(max-width:468px) {
+  .header-txt p {
+    font-size: 0.9em;
   }
-  .intro p
-  {
-    font-size:1em;
+  .intro p {
+    font-size: 1em;
   }
-  .part4
-  {
-    font-size:0.8em;
+  .part4 {
+    font-size: 0.8em;
   }
-  .part4 #trophy
-  {
-    display:block;
-    margin:0 auto;
+  .part4 #trophy {
+    display: block;
+    margin: 0 auto;
   }
 }
